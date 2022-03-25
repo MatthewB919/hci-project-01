@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../screen.css">
+    <title="">Billing</title="">
+  </head>
+  <body>
+    <main>
+      <form name="billing" action="index.html" method="post">
+        <fieldset name="billField">
+          <ol>
+            <li>
+              <label for="cardholder">Cardholder's Name</label>
+              <input type="cardholder" name="cardholder" id="cardholder">
+            </li>
+            <li>
+              <label for="cardnum">Card Number</label>
+              <input type="cardnum" name="cardnum" id="cardnum">
+            </li>
+            <li>
+              <label for="ccv">CCV</label>
+              <input type="ccv" name="ccv" id="ccv">
+            </li>
+            <li>
+              <label for="expiration">Expiration Date</label>
+              <input type="expiration" name="expiration" id="expiration">
+            </li>
+            <li>
+              <label for="phone">Phone Number</label>
+              <input type="phone" name="phone" id="phone">
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email">
+            </li>
+            <li>
+              <label for="zip">Zip Code</label>
+              <input type="zip" name="zip" id="zip">
+            </li>
+          </ol>
+        </fieldset>
+        <button type="button" id="back"><a href="/">Back</a></button>
+        <button type="button" id="next"><a href="/Shipping/">Next</a></button>
+      </form>
+    </main>
+    <button id="AR" onclick="assistReading()">Assisted Reading Mode</button>
+    </main>
+    <script src="site.js"></script>
+  </body>
+</html

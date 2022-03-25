@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../screen.css">
+    <title>Shipping</title>
+  </head>
+  <body>
+    <main>
+      <form name="shipping" action="index.html" method="post">
+        <fieldset name="shipField">
+          <ol>
+            <li>
+              <label for="buyer">Name</label>
+              <input type="buyer" name="buyer" id="buyer">
+            </li>
+            <li>
+              <label for="address">Address</label>
+              <input type="address" name="address" id="address">
+            </li>
+            <li>
+              <label for="city">City</label>
+              <input type="city" name="city" id="city">
+            </li>
+            <li>
+              <label for="state">State</label>
+              <input type="state" name="state" id="state">
+            </li>
+            <li>
+              <label for="zip">Zip Code</label>
+              <input type="zip" name="zip" id="zip">
+            </li>
+            <li>
+              <label for="apartment">Apartment</label>
+              <input type="apartment" name="apartment" id="apartment">
+            </li>
+            <li>
+              <label for="phone">Phone Number</label>
+              <input type="phone" name="phone" id="phone">
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email">
+            </li>
+            <li>
+              <label for="info">Additional Info</label>
+              <input type="info" name="info" id="info">
+            </li>
+          </ol>
+        </fieldset>
+        <button type="button" id="back"><a href="/Billing/">Back</a></button>
+        <button type="button" id="next"><a href="/Order/">Next</a></button>
+      </form>
+      <button type="button" id="home"><a href="/">Home</a></button>
+    </main>
+    <button id="AR" onclick="assistReading()">Assisted Reading Mode</button>
+    <script src="/site.js"></script>
+  </body>
+</html>
