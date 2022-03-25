@@ -15,7 +15,7 @@ html {
 }
 
 #headback {
-  /*background-color: #181;*/
+  background-color: ##058523;
   text-align: center;
   padding-bottom: 0.25em;
 }
@@ -57,6 +57,6 @@ p {
   margin-left: 0.25em;
 }
 
-#desc{
+#description{
   text-align: center;
 }
